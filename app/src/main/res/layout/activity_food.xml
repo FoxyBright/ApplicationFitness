@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemActivity"
+    android:orientation="vertical"
+    android:background="@color/color_app_backgoroud">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_app_backgoroud"
+        android:orientation="vertical"
+        tools:context=".ItemActivity">
+
+        <ImageView
+            android:id="@+id/ex_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@color/color_app_backgoroud"
+            android:scaleType="fitCenter"
+            android:src="@drawable/banana" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/liner_ai1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ai_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="8dp"
+                    android:text="Banana"
+                    android:textAlignment="center"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/fitness_500"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/liner_ai1"
+                    android:layout_margin="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/ai_calories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="20dp"
+                        android:paddingVertical="4dp"
+                        android:text="$ 1000"
+                        android:textAlignment="inherit"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/fitness_500"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/ai_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="4dp"
+                    android:text="Test description test description test description test description test description test description test description test description"
+                    android:textAlignment="inherit"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/fitness_500"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ex_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="@color/black"
+        android:src="@drawable/banana" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/liner_ai1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ai_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="Banana"
+                android:paddingTop="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignBottom="@id/liner_ai1"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:id="@+id/ai_calories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="inherit"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="$ 1000"
+                    android:paddingVertical="4dp"
+                    android:paddingHorizontal="20dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ai_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textAlignment="inherit"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:text="Test description test description test description test description test description test description test description test description"
+                android:paddingVertical="4dp"
+                android:paddingHorizontal="20dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

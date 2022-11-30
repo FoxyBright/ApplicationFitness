@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AppFitness" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/fitness_500</item>
+        <item name="colorPrimaryDark">@color/fitness_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/gray</item>
+        <item name="colorControlActivated">@color/fitness_700</item>
+    </style>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ri_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground"
+    app:cardCornerRadius="30dp">
+
+
+    <LinearLayout
+        android:id="@+id/rl_1_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="200"
+        android:background="@drawable/roundstyle"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/excer_image"
+            android:layout_width="206dp"
+            android:layout_height="105dp"
+            android:padding="8dp"
+            android:src="@drawable/bench" />
+
+        <LinearLayout
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/excer_title"
+                android:layout_width="135dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="0dp"
+                android:layout_weight="1"
+                android:paddingVertical="25dp"
+                android:text="Жим штанги лежа"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

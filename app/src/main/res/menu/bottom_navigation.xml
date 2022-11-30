@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_nav_add"
+        android:icon="@drawable/id_add_food"
+        android:title="@string/add_food"/>
+    <item
+        android:id="@+id/ic_nav_calories"
+        android:icon="@drawable/ic_eat"
+        android:title="@string/menu_eat"/>
+    <item
+        android:id="@+id/ic_nav_calc"
+        android:icon="@drawable/ic_calc"
+        android:title="@string/calculate"/>
+
+    <item
+        android:id="@+id/ic_nav_home"
+        android:icon="@drawable/ic_excercise"
+        android:title="@string/menu_home"/>
+
+
+    <item
+        android:id="@+id/ic_nav_profile"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"/>
+
+</menu>

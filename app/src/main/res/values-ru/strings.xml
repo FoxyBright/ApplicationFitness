@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coffee Shop App</string>
+    <string name="sign_in_string">Авторизация</string>
+    <string name="sign_in_enter_username">Логин</string>
+    <string name="sign_in_username">Введите логин...</string>
+    <string name="sign_in_enter_password">Пароль</string>
+    <string name="sign_in_password">Введите пароль...</string>
+    <string name="sign_in_button">Войти</string>
+    <string name="menu_home">Главная</string>
+    <string name="ccal">Ккал</string>
+    <string name="add_to_eat">Добавить</string>
+    <string name="settings">Настройки</string>
+    <string name="remove">Убрать</string>
+    <string name="my_profile">Мой Профиль</string>
+    <string name="name">Имя:</string>
+    <string name="language">Язык</string>
+    <string name="russian">Русский</string>
+    <string name="english">Английский</string>
+    <string name="calories">Калории:</string>
+    <string name="add_food">Добавить еду</string>
+    <string name="age">Возраст:</string>
+    <string name="sex">Пол:</string>
+    <string name="weight">Вес:</string>
+    <string name="height">Рост:</string>
+    <string name="calculate">Калькулятор</string>
+    <string name="menu_eat">Калории</string>
+    <string name="Activity">Активность:</string>
+    <string name="calc">Рассчитать</string>
+    <string name="enterWeight">Вес...</string>
+    <string name="enterHeight">Рост...</string>
+    <string name="enterAge">Возраст...</string>
+    <string name="female">Женский</string>
+    <string name="male">Мужской</string>
+    <string name="maintence">Ваша норма калорийности:  </string>
+
+</resources>
