@@ -1,7 +1,6 @@
 package com.example.applicationfitness
 
 import android.app.Application
-import com.example.applicationfitness.contracts.CartContract
 import com.example.applicationfitness.data.*
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
@@ -18,6 +17,7 @@ class FitnessApp: Application() {
         singleOf(::LoginRepository)
         singleOf(::MainRepository)
         singleOf(::FoodRepository)
+        singleOf(::ExcerciseRepository)
     }
     
     override fun onCreate() {

@@ -10,14 +10,3 @@ data class UserModel(
     var name: String,
     var calories: Int,
 )
-
-val testUser = UserModel(
-    password = "1234",
-    username = "root",
-    age = 21,
-    weight = 82,
-    height = 179,
-    sex = "Мужской",
-    name = "Илья Пауков",
-    calories = 2800
-)
