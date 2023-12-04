@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/ic_nav_add"
+        android:id="@+id/ic_nav_food"
         android:icon="@drawable/id_add_food"
         android:title="@string/add_food"/>
     <item
-        android:id="@+id/ic_nav_calories"
+        android:id="@+id/ic_nav_cart"
         android:icon="@drawable/ic_eat"
         android:title="@string/menu_eat"/>
     <item
-        android:id="@+id/ic_nav_calc"
+        android:id="@+id/ic_nav_calculate"
         android:icon="@drawable/ic_calc"
         android:title="@string/calculate"/>
 
     <item
-        android:id="@+id/ic_nav_home"
+        android:id="@+id/ic_nav_excercise"
         android:icon="@drawable/ic_excercise"
         android:title="@string/menu_home"/>
-
 
     <item
         android:id="@+id/ic_nav_profile"
